@@ -1,0 +1,7 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+examples/3part3spr.png
+lib/Physics/Springs.pm
+t/1.t
