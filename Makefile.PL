@@ -6,9 +6,10 @@ WriteMakefile(
     'NAME'		=> 'Physics::Springs',
     'VERSION_FROM'	=> 'lib/Physics/Springs.pm', # finds $VERSION
     'PREREQ_PM'		=> {
-                             Physics::Particles => 0.10,
-                             Test::More => 0.44,
-                             Data::Dumper => 2.0,
+                             Physics::Particles => 1.00,
+                             Test::More => 0,
+                             Data::Dumper => 0,
+			     Sub::Assert => 0,
                            }, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM => 'lib/Physics/Springs.pm', # retrieve abstract from module

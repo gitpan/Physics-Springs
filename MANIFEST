@@ -2,6 +2,10 @@ Changes
 MANIFEST
 Makefile.PL
 README
+examples/2walls2part3spr.pl
+examples/2walls2part3spr_antiphase.pl
+examples/2walls2part3spr_antiphase.png
+examples/2walls2part3spr_inphase.png
 examples/3part3spr.png
 lib/Physics/Springs.pm
 t/1.t

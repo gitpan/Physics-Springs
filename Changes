@@ -1,4 +1,10 @@
 Revision history for Perl extension Physics::Springs.
 
+1.00  Sun Jul  6 20:12:47 2003
+	- Now requires Physics::Particles >= 1.00
+	- Higher accuracy!!!
+	- More examples
+	- Now uses Sub::Assert.
+
 0.02  Wed May  7 14:14:13 2003
 	- original version as uploaded to CPAN

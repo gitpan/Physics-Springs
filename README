@@ -1,9 +1,13 @@
-Physics::Springs version 0.02
+Physics::Springs version 1.00
 =============================
 
 This module is intended as an add-on to the Physics::Particles module
 and may be used to simulate particle dynamics including spring-like forces
 between any two particles you specify.
+
+As of version 1.00, Physics::Springs is no longer compatible with versions
+lower than 1.00. Furthermore, it is no longer compatible with versions lower
+than 1.00 of Physics::Particles and Physics::Springs::Friction.
 
 INSTALLATION
 
@@ -19,9 +23,15 @@ DEPENDENCIES
 
 This module requires these other modules and libraries:
 
-  Physics::Particles (Version 0.10 or newer)
-  Test::More (Version 0.44 or newer)
-  Data::Dumper (Version 2 or newer)
+  Physics::Particles (Version 1.00 or newer)
+  Sub::Assert
+  Test::More
+  Data::Dumper
+
+SEE ALSO
+
+You may find the newest versions of this module on CPAN or
+http://steffen-mueller.net
 
 COPYRIGHT AND LICENCE
 
