@@ -1,4 +1,4 @@
-Physics::Springs version 1.00
+Physics::Springs version 1.01
 =============================
 
 This module is intended as an add-on to the Physics::Particles module
@@ -12,6 +12,20 @@ than 1.00 of Physics::Particles and Physics::Springs::Friction.
 INSTALLATION
 
 To install this module type the following:
+
+   perl Build.PL
+   ./Build
+   ./Build test
+   ./Build install
+
+On platforms that don't support the "./" notation, that would be:
+
+   perl Build.PL
+   perl Build
+   perl Build test
+   perl Build install
+
+If you wish, you may use the old MakeMaker style instead:
 
    perl Makefile.PL
    make
@@ -37,7 +51,7 @@ COPYRIGHT AND LICENCE
 
 Put the correct copyright and licence information here.
 
-Copyright (C) 2003 Steffen Mueller
+Copyright (C) 2003-2005 Steffen Mueller
 
 Author can be reached at springs-module at steffen-mueller dot net.
 

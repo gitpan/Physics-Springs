@@ -4,7 +4,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 use Carp;
 use Physics::Particles;
@@ -151,6 +151,11 @@ Optional arguments are: The length of the relaxed spring 'len'.
 If len is not specified, the current distance between p1 and p2 will be
 used as the length of the relaxed spring.
 
+=item iterate_step
+
+Iterates next simulation step. Please refer to the documentation of the
+super method to this in L<Physics::Particles>.
+
 =back
 
 =head1 DIAGNOSTICS
@@ -192,7 +197,7 @@ Steffen Mueller, E<lt>springs-module at steffen-mueller dot netE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2003 by Steffen Mueller
+Copyright 2003-2005 by Steffen Mueller
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 
